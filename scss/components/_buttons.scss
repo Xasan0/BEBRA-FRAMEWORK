@@ -1,0 +1,66 @@
+.btn {
+    border-radius: 8px;
+    border: 1px solid $text-default;
+    color: $text-danger;
+    padding: 8px 14px;
+
+    &:focus {
+        outline: 3px solid $ring-primary;
+    }
+
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+
+.btn-success {
+    border-radius: 8px;
+    border: none;
+    background-color: $bg-ltlime;
+    color: $text-success;
+    padding: 8px 14px;
+
+    &:focus {
+        outline: 3px solid $ring-success;
+    }
+
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+
+.btn-secondary {
+    border-radius: 8px;
+    border: none;
+    background-color: $bg-silver;
+    color: $text-secondary;
+    padding: 8px 14px;
+
+    &:focus {
+        outline: 3px solid $ring-secondary;
+    }
+
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+
+.btn-always {
+    border-radius: 8px;
+    border: none;
+    background-color: $bg-always;
+    color: $text-always;
+    padding: 8px 14px;
+
+    &:focus {
+        outline: 3px solid $ring-always;
+    }
+
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}

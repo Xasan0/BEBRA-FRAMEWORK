@@ -1,0 +1,382 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark-mode {
+  --bg-color: #1a1a1a;
+  --text-color: #ffffff;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid #3C3633;
+  color: #747264;
+  padding: 8px 14px;
+}
+.btn:focus {
+  outline: 3px solid hsla(204, 56%, 31%, 0.224);
+}
+.btn:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.btn-success {
+  border-radius: 8px;
+  border: none;
+  background-color: #74D4B8;
+  color: #31363F;
+  padding: 8px 14px;
+}
+.btn-success:focus {
+  outline: 3px solid hsla(154, 53%, 57%, 0.224);
+}
+.btn-success:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  border-radius: 8px;
+  border: none;
+  background-color: #495057;
+  color: #222831;
+  padding: 8px 14px;
+}
+.btn-secondary:focus {
+  outline: 3px solid hsla(181, 49%, 43%, 0.224);
+}
+.btn-secondary:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.btn-always {
+  border-radius: 8px;
+  border: none;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 8px 14px;
+}
+.btn-always:focus {
+  outline: 3px solid hsla(211, 100%, 50%, 0.224);
+}
+.btn-always:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+header {
+  background-color: #EEEDEB;
+  backdrop-filter: blur(10px);
+}
+header .nav {
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+header .nav .toggle-container .toggle-input {
+  display: none;
+}
+header .nav .toggle-container .toggle-label {
+  display: block;
+  width: 40px;
+  height: 20px;
+  background-color: #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+}
+header .nav .toggle-container .toggle-label::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
++ .toggle-input:checked header .nav .toggle-container .toggle-label {
+  background-color: #007bff;
+}
++ .toggle-input:checked header .nav .toggle-container .toggle-label::after {
+  transform: translateX(20px);
+}
+header .nav .nav-title a {
+  font-family: sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: #3C3633;
+  text-decoration: none;
+}
+header .nav .list-nav {
+  justify-content: space-between;
+  gap: 25px;
+  width: 100px;
+}
+header .nav .list-nav .list-item {
+  list-style: none;
+}
+header .nav .list-nav .list-item a {
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  color: #747264;
+}
+header .nav .list-nav .list-item a :hover {
+  font-size: 21px;
+}
+
+.white-c {
+  color: #fff;
+}
+
+.lt-blue {
+  color: #6EDFF6;
+}
+
+.silver-c {
+  color: #495057;
+}
+
+.lt-lime {
+  color: #74D4B8;
+}
+
+.yellow-c {
+  color: #FFE69C;
+}
+
+.dis-block {
+  display: block;
+}
+
+.dis-flex {
+  display: flex;
+}
+
+.dis-grid {
+  display: grid;
+}
+
+.dis-inline {
+  display: inline;
+}
+
+.dis-none {
+  display: none;
+}
+
+.pl-1 {
+  padding-left: 2px;
+}
+
+.pl-2 {
+  padding-left: 4px;
+}
+
+.pl-3 {
+  padding-left: 6px;
+}
+
+.pl-4 {
+  padding-left: 8px;
+}
+
+.pl-5 {
+  padding-left: 10px;
+}
+
+.pl-6 {
+  padding-left: 12px;
+}
+
+.pl-7 {
+  padding-left: 14px;
+}
+
+.pl-8 {
+  padding-left: 16px;
+}
+
+.pl-9 {
+  padding-left: 18px;
+}
+
+.pl-10 {
+  padding-left: 20px;
+}
+
+.pl-11 {
+  padding-left: 24px;
+}
+
+.pl-12 {
+  padding-left: 28px;
+}
+
+.pl-13 {
+  padding-left: 30px;
+}
+
+.pl-14 {
+  padding-left: 34px;
+}
+
+.pl-15 {
+  padding-left: 38px;
+}
+
+.pl-16 {
+  padding-left: 42px;
+}
+
+.pl-17 {
+  padding-left: 48px;
+}
+
+.pl-18 {
+  padding-left: 50px;
+}
+
+.pl-19 {
+  padding-left: 54px;
+}
+
+.pl-20 {
+  padding-left: 58px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 220px;
+  height: 300px;
+  padding: 1.1rem;
+  padding-top: 130px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #495057;
+}
+.card .title {
+  padding-bottom: 10px;
+}
+.card .paragraph {
+  padding-bottom: 35px;
+}
+
+.san-s {
+  font-family: sans-serif;
+}
+
+.l-spacing {
+  letter-spacing: 0.5px;
+}
+
+.fs-medium {
+  font-size: small;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
+/* Additional styling for other elements */
+#about {
+  height: 100vh;
+  padding-top: 300px;
+}
+#about .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+#about .wrapper .wrapper-title {
+  font-size: 43px;
+  font-weight: 600;
+  color: #3C3633;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#about .wrapper .wrapper-paragraph {
+  color: #31363F;
+  font-size: 26px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+}
+
+#cards {
+  scroll-behavior: smooth;
+  width: 100%;
+  padding-bottom: 20px;
+}
+#cards .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#cards .wrapper-info {
+  font-size: 32px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #3C3633;
+}
+#cards .wrapper-desc {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #31363F;
+}
+
+.codes {
+  background-color: #000;
+  width: 400px;
+  height: 280px;
+  padding: 25px 35px 50px 30px;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#buttons {
+  scroll-behavior: smooth;
+  width: 100%;
+  padding-bottom: 20px;
+}
+#buttons .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#buttons .wrapper-info {
+  font-size: 32px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: #3C3633;
+}
+#buttons .wrapper-desc {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #31363F;
+}
+#buttons .wrapper-buttons {
+  display: flex;
+  gap: 15px;
+}/*# sourceMappingURL=main.css.map */
