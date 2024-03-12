@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="./_helpers.scss">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+
+            <nav class="nav dis-flex">
+
+                <div class="nav-title">
+                    <a href="../../index.html">BEBRA</a>
+                </div>
+
+                <!-- <ul class="list-nav dis-flex">
+                    <li class="list-item">
+                        <a href="#" class="item-link">
+                            <p>Borders</p>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <p>Colors</p>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <p>Display</p>
+                        </a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#">
+                            <p>Input</p>
+                        </a>
+                    </li>
+                </ul> -->
+
+                <div class="toggle-container">
+                    <input type="checkbox" id="toggle" class="toggle-input">
+                    <label for="toggle" class="toggle-label"></label>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="links">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="wrapper__title">
+                        <h1>Multi Colored links</h1>
+                        <p>You can use the .link-* classes to colorize links. Unlike the .text-* classes, these classes
+                            have a :hover and :focus state.</p>
+                    </div>
+
+
+
+                    <div class="wrapper__links">
+                        <a href="#" class="link-primary">Primary link</a>
+                        <a href="#" class="link-secondary">Secondary link</a>
+                        <a href="#" class="link-success">Success link</a>
+                        <a href="#" class="link-danger">Danger link</a>
+                        <a href="#" class="link-warning">Warning link</a>
+                        <a href="#" class="link-info">Info link</a>
+                        <a href="#" class="link-light">Light link</a>
+                        <a href="#" class="link-dark">Dark link</a>
+                    </div>
+
+
+                    <div class="codes san-s fs-medium ">
+
+                        <span class="line white-c pl-10">
+                            <span class="cl">
+                                <span class="silver-c">&lt;</span>
+                                <span class="lt-blue">a</span>
+                                <span class="yellow-c">class</span>
+                                <span class="silver-c">=</span>
+                                <span class="lt-lime">"link-primary"</span>
+                                <span class="silver-c">&gt;</span>
+                                Primary link
+                                <span class="silver-c">&lt;/</span>
+                                <span class="lt-blue">a</span>
+                                <span class="silver-c">&gt;</span>
+                            </span>
+                        </span>
+                        <br>
+                        <br>
+                        <span class="line white-c pl-10">
+                            <span class="cl">
+                                <span class="silver-c">&lt;</span>
+                                <span class="lt-blue">a</span>
+                                <span class="yellow-c">class</span>
+                                <span class="silver-c">=</span>
+                                <span class="lt-lime">"link-secondary"</span>
+                                <span class="silver-c">&gt;</span>
+                                Secondary link
+                                <span class="silver-c">&lt;/</span>
+                                <span class="lt-blue">a</span>
+                                <span class="silver-c">&gt;</span>
+                            </span>
+                        </span>
+                        <br><br>
+                        <span class="line white-c pl-10">
+                            <span class="cl">
+                                <span class="silver-c">&lt;</span>
+                                <span class="lt-blue">a</span>
+                                <span class="yellow-c">class</span>
+                                <span class="silver-c">=</span>
+                                <span class="lt-lime">"link-success"</span>
+                                <span class="silver-c">&gt;</span>
+                                Success link
+                                <span class="silver-c">&lt;/</span>
+                                <span class="lt-blue">a</span>
+                                <span class="silver-c">&gt;</span>
+                            </span>
+                        </span>
+                        <br><br>
+                        <span class="line white-c pl-10">
+                            <span class="cl">
+                                <span class="silver-c">&lt;</span>
+                                <span class="lt-blue">a</span>
+                                <span class="yellow-c">class</span>
+                                <span class="silver-c">=</span>
+                                <span class="lt-lime">"link-danger"</span>
+                                <span class="silver-c">&gt;</span>
+                                Danger link
+                                <span class="silver-c">&lt;/</span>
+                                <span class="lt-blue">a</span>
+                                <span class="silver-c">&gt;</span>
+                            </span>
+                        </span>
+                        <br><br>
+                        <span class="line white-c pl-10">
+                            <span class="cl">
+                                <span class="silver-c">&lt;</span>
+                                <span class="lt-blue">a</span>
+                                <span class="yellow-c">class</span>
+                                <span class="silver-c">=</span>
+                                <span class="lt-lime">"link-warning"</span>
+                                <span class="silver-c">&gt;</span>
+                                Warning link
+                                <span class="silver-c">&lt;/</span>
+                                <span class="lt-blue">a</span>
+                                <span class="silver-c">&gt;</span>
+                            </span>
+                        </span>
+                        <br><br>
+                        <span class="line white-c pl-10">
+                            <span class="cl">
+                                <span class="silver-c">&lt;</span>
+                                <span class="lt-blue">a</span>
+                                <span class="yellow-c">class</span>
+                                <span class="silver-c">=</span>
+                                <span class="lt-lime">"link-dark"</span>
+                                <span class="silver-c">&gt;</span>
+                                Dark link
+                                <span class="silver-c">&lt;/</span>
+                                <span class="lt-blue">a</span>
+                                <span class="silver-c">&gt;</span>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+        </section>
+
+        <section id="ratio">
+            <div class="container">
+                <div class="context">
+
+                    <h1>About</h1>
+
+
+                    <h2>Ratio</h2>
+                    <br />
+
+                    <p>
+                        Use generated pseudo elements to make an element maintain the
+                        aspect ratio of <br />
+                        your choosing. Perfect for responsively handling video or
+                        slideshow embeds based <br />
+                        on the width of the parent.
+                        Use generated pseudo elements to make an element maintain the aspect ratio of your choosing.
+                        Perfect for responsively handling video or slideshow embeds based on the width of the parent.
+                    </p>
+                    <img src="../helpers/imgs/aspect_ratio.jpg" alt="ratio" width="900px" />
+
+                    <div class="wrapper bg-dark text-white rounded-4 my-8">
+                        <pre>
+                  <code>            
+                        &lt;div class="ratio ratio-1x1"&gt;
+                          &lt;div&gt;1x1&lt;/div&gt;
+                        &lt;/div&gt;
+        
+                        &lt;div class="ratio ratio-4x3"&gt;
+                          &lt;div&gt;4x3&lt;/div&gt;
+                        &lt;/div&gt;
+        
+                        &lt;div class="ratio ratio-16x9"&gt;
+                          &lt;div&gt;16x9&lt;/div&gt;
+                        &lt;/div&gt;
+        
+                        &lt;div class="ratio ratio-21x9"&gt;
+                          &lt;div&gt;21x9&lt;/div&gt;
+                        &lt;/div&gt;
+        
+                        &lt;div class="ratio" style="--bs-aspect-ratio: 50%;"&gt;
+                         &lt;div&gt;2x1&lt;/div&gt;
+                        &lt;/div&gt;                                     
+                               
+                  </code>
+                  </pre>
+                    </div>
+                </div>
+        </section>
+
+        <section id="z-index">
+            <div class="container">
+                <div class="wrapper">
+                    <h2>About</h2>
+                    <h4>
+                        Z-index
+                    </h4>
+                    <p>
+                        We call these “low-level” z-index utilities because of their default values of -1 through 3,
+                        which
+                        we use for the <br>
+                        layout of overlapping components. High-level z-index values are used for overlay components like
+                        modals and <br>
+                        tooltips.
+                    </p>
+                    <img src="./imgs/z-index.jpg" alt="z-index" style="width: 800px; height: 500px;">
+                    <div class="wrapper bg-dark text-white rounded-4 my-8">
+                        <pre>
+                    <code>
+                        &lt;div class="z-3 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-3&lt;/span&gt;&lt;/div&gt;
+        
+                        &lt;div class="z-2 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-2&lt;/span&gt;&lt;/div&gt;
+            
+                        &lt;div class="z-1 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-1&lt;/span&gt;&lt;/div&gt;
+        
+                        &lt;div class="z-0 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-0&lt;/span&gt;&lt;/div&gt;
+        
+                        &lt;div class="z-n1 position-absolute p-5 rounded-3"&gt;&lt;span&gt;z-n1&lt;/span&gt;&lt;/div&gt;
+                      </code>
+                      </pre>
+                    </div>
+                </div>
+        </section>
+
+        <section id="inputs">
+            <div class="container">
+                <div class="wrapper"></div>
+                <h1>Inputs</h1>
+
+                <div class="flexw">
+                    <input type="text" class="input" placeholder="Enter smth text..." />
+                    <input type="text" class="input input-success" placeholder="Success" />
+                    <input type="text" class="input input-error" placeholder="Error" />
+                    <input type="text" class="input input-warning" placeholder="Warning" />
+                    <input type="text" class="input input-info" placeholder="Info" />
+                </div>
+
+                <div class="wrapper bg-dark text-white rounded-4 my-8">
+                    <pre>
+            <code>
+              &lt;input type="text" class="input" placeholder="Enter smth text..." /&gt;
+    
+              &lt;input type="text" class="input input-success" placeholder="Success" /&gt;
+    
+              &lt;input type="text" class="input input-error" placeholder="Error" /&gt;
+    
+              &lt;input type="text" class="input input-warning" placeholder="Warning" /&gt;
+    
+              &lt;input type="text" class="input input-info" placeholder="Info" /&gt;
+            </code>
+          </pre>
+                </div>
+        </section>
+
+        <section id="visibility">
+            <div class="container">
+                <div class="wrapper">
+                    <h4>Visibility</h4>
+                    <br />
+
+                    <p>
+                        Set the <span style="color: #0077ff">visibility</span> of elements
+                        with our visibility utilities. These utility classes do not modify
+                        the display value at all <br />
+                        and do not affect layout
+                        <span style="color: #ffae00">– .invisible</span> elements still take
+                        up space in the page.
+                    </p>
+                    <p>
+                        Apply <span style="color: #14dc57">.visible </span>or
+                        <span style="color: #83051e">.invisible</span>as needed.
+                    </p>
+                    <br />
+                    <div class="wrapper bg-dark text-white rounded-4 my-8">
+                        <pre>
+          <code>
+            <pre>
+                <code>
+
+                &lt;div class="visible"&gt;...&lt;/div&gt;
+
+                &lt;div class="invisible"&gt;...&lt;/div&gt;
+
+
+
+                // Class
+
+                .visible {
+                visibility: visible !important;
+                }
+
+                .invisible {
+                visibility: hidden !important;
+                }
+
+                "visibility": (
+                property: visibility,
+                class: null,
+                values: (
+                    visible: visible,
+                    invisible: hidden,
+                )
+                ),
+
+                </code>
+            </pre>
+                        </code>
+                        </pre>
+                    </div>
+                </div>
+        </section>
+    </main>
+
+    <script>
+        const toggle = document.getElementById('toggle');
+
+        toggle.addEventListener('change', function () {
+            document.body.classList.toggle('dark-mode');
+        });
+
+    </script>
+</body>
+
+</html>
